@@ -1,7 +1,7 @@
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # Load the model and tokenizer
-model_name = "google/flan-t5-base"
+model_name = "google/flan-t5-xl"
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 
